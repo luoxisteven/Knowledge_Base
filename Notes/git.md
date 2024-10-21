@@ -1,5 +1,5 @@
 ## 初始化 Git
-```
+```bash
 cd /path/to/your/project    # 进入项目目录
 git init                    # 初始化 Git 仓库
 
@@ -13,7 +13,7 @@ git push -u origin main
 ```
 
 ## Pull
-```
+``` bash
 # 从远程仓库获取最新的更改，并与本地分支进行合并。
 # 它相当于执行了两个操作的组合：
 # git fetch（从远程仓库获取最新的更新）和 git merge（将这些更新合并到当前分支）。
@@ -25,14 +25,14 @@ git checkout feature-branch  # 切换到 feature-branch 分支
 ```
 
 ## Push
-```
+```bash
 git add .
 git commit -m "***"
 git push origin main
 ```
 
 ## Remote
-```
+```bash
 #查看远程仓库
 git remote -v
 
@@ -42,7 +42,7 @@ git remote set-url origin git@github.com:luoxisteven/Management_System.git
 ```
 
 ## Others
-```
+```bash
 #force push
 git push -u origin main -- force 
 ```
